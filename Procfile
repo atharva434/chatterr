@@ -1,1 +1,1 @@
-web: gunicorn CHATTERAPP.wsgi --log-file -
+web: gunicorn djangochat.wsgi --log-file -
